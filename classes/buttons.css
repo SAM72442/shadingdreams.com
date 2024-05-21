@@ -1,8 +1,7 @@
 .uber {
     background-color: black;
     color: white;
-    height: 48;
-    width: 138;
+    padding:16px 24px;
     font-size: 15px;
     font-family:'Lucida Sans';
     font-weight: bold;
@@ -17,8 +16,7 @@
 
 .amazon {
     background-color: rgba(239, 168, 0, 0.8);
-    height: 29;
-    width: 204;
+    padding: 8px 71px;
     font-size: 13px;
     font-family: Calibri;
     border: none;
@@ -102,12 +100,13 @@
     border-style: solid;
     border-color: rgb(74, 90, 198);
     border-radius: 30px;
+    /* border-radius: 50%; */
     padding: 10px 20px;
-    transition: 0.15s;
+    transition: 0.2s;
 }
 .LinkedIn2:hover {
-    background-color:rgb(74, 90, 198, 0.1);
-    border-width: 2px;
+    background-color:rgb(74, 90, 198, 0.15);
+    border-width: 3px;
     cursor: pointer;
 }
 
@@ -117,13 +116,13 @@ a:hover {
 
 .amazon2 {
     background-color: rgba(239, 168, 0, 0.7);
-    width: 200px;
+    /* width: 200px; */
     font-size: 25px;
     font-family: Calibri;
     border: none;
     border-radius: 20px;
     transition: 0.15s;
-    padding: 5px 40px;
+    padding: 5px 44px;
 }
 .amazon2:hover {
     background-color: rgba(239, 168, 0, 1);
