@@ -1,0 +1,323 @@
+body{
+    font-family: Times;
+    padding-bottom: 500px;
+}
+
+.uber {
+    background-color: black;
+    color: white;
+    padding:16px 24px;
+    font-size: 15px;
+    font-family:'Lucida Sans';
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.uber:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.amazon {
+    background-color: rgba(239, 168, 0, 0.8);
+    padding: 8px 71px;
+    font-size: 13px;
+    font-family: Calibri;
+    border: none;
+    border-radius: 15px;
+    transition: 0.15s;
+}
+.amazon:hover {
+    background-color: rgba(239, 168, 0, 1);
+    cursor: pointer;
+}
+
+.github {
+    background-color: rgba(1, 136, 6, 0.744);
+    color: white;
+    font-weight: Bold;
+    font-family: Times;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.15s;
+}
+.github:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.Bootstrap1 {
+    background-color: rgba(77, 18, 109, 0.7);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    transition: 0.15s;
+    margin: 0px 10px 0px 0px;
+}
+.Bootstrap1:hover {
+    background-color: rgba(77, 18, 109, 0.8);
+    cursor: pointer;
+}
+
+.Bootstrap2 {
+    background-color: transparent;
+    color:rgb(120, 120, 120);
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(120, 120, 120);
+    border-radius: 8px;
+    padding: 15px 30px;
+    transition: 0.15s;
+}
+.Bootstrap2:hover {
+    background-color: rgb(120, 120, 120);
+    color: white;
+    cursor: pointer;
+}
+
+.LinkedIn1 {
+    background-color:rgb(74, 90, 198);
+    color:white ;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: 0.15s;
+}
+.LinkedIn1:hover {
+    background-color: rgb(57, 70, 149);
+    color: white;
+    cursor: pointer;
+}
+
+.LinkedIn2 {
+    background-color: transparent;
+    color:rgb(74, 90, 198);
+    font-size: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(74, 90, 198);
+    border-radius: 30px;
+    /* border-radius: 50%; */
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+.LinkedIn2:hover {
+    background-color:rgb(74, 90, 198, 0.15);
+    border-width: 3px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+}
+
+.amazon2 {
+    background-color: rgba(239, 168, 0, 0.7);
+    /* width: 200px; */
+    font-size: 25px;
+    font-family: Calibri;
+    border: none;
+    border-radius: 20px;
+    transition: 0.15s;
+    padding: 5px 44px;
+}
+.amazon2:hover {
+    background-color: rgba(239, 168, 0, 1);
+    cursor: pointer;
+}
+.amazon2:active{
+    opacity: 0.6;
+}
+
+.pageButton{
+    padding: 11px;
+    font-size: 20px;
+}
+.page{
+    color: rgb(39, 39, 158);
+    font-size: 24px;
+    padding: 6px;
+    text-decoration: underline;
+}
+.page:hover{
+    font-size: 32px;
+    padding: 4px;
+    background-color: rgb(8, 0, 255);
+    color: white;
+    border-radius: 15px;
+}
+
+.stretchButton,
+.Button3D,
+.MarPad{
+    background-color: rgb(10, 130, 24);
+    color: white;
+    padding: 8px 16px;
+    font-size: 24px;
+    border: None;
+}
+
+.stretchButton{
+    transition: 1s;
+}
+.stretchButton:hover {
+    padding: 24px 48px;
+    cursor: pointer;
+}
+
+.Button3D {
+    font-size: 26px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.Button3D:hover {
+    cursor: pointer;
+}
+.Button3D:active {
+    box-shadow: None;
+    transform: translate(4px, 4px);
+}
+
+.MarPad{
+    font-size: 26px;
+    margin: 0px 12px;
+    transition: all 0.15s;
+}
+.MarPad:hover{
+    padding: 8px 26px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+
+.roundrectIm,
+.squareIm,
+.circleIm{
+    margin: 0px 30px;
+    height: 15vh;
+}
+
+.roundrectIm{
+    border-radius: 15px;
+}
+
+.squareIm,
+.profilePhoto,
+.circleIm{
+    width: 15vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.circleIm{
+    border-radius: 50%;
+}
+
+.basicInput,
+.roundInput{
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(203, 203, 203);
+    color: blue;
+}
+
+.basicInput::placeholder,
+.roundInput::placeholder{
+    color: rgb(150, 150, 150)
+}
+
+.roundInput{
+    width: 500px;
+    padding-left: 16px;
+    border-radius: 30px;
+    border:None;
+    box-shadow: 0px 0px 8px rgb(203, 203, 203);
+}
+
+
+.profilePhoto{
+    width:70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.profileDetails{
+    font-family: Arial;
+    font-size: 22px;
+    color: rgb(184, 184, 184);
+    margin: 0;
+    padding: 2px;
+    border: 2px solid red;
+}
+
+.profilePanel{
+    box-shadow: 0 0 10px rgb(171, 171, 171);
+}
+.coverPhoto{
+    width:100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
+.profileName{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.mutualFriends{
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    column-gap: 10px;
+    margin: 5px 0;                                    
+}
+.profileFriends{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(147, 147, 147);
+    margin: 0;
+}
+.addFriend{
+    background-color:rgb(89, 111, 255);
+    color:white ;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 8px 0 3px 0;
+    transition: 0.15s;
+}
+.addFriend:hover {
+    background-color: rgb(34, 59, 223);
+    color: white;
+    cursor: pointer;
+}
+
+.notificationsNo{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(89, 111, 255);
+    color: white;
+    display: flex;
+    padding: 2px 12px;
+    margin:0;
+    border-radius: 12px;
+}
+.notificationType{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    font-size: 18px;
+    /* border: 1px solid gray;     */
+}
