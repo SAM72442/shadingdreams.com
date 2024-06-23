@@ -309,5 +309,28 @@
             </div>
         </div>
 
+
+        <button id = "testing" style="position:fixed;
+                                                    bottom:0;
+                                                    left:0;
+                                                    font-size: 32px;
+                                                    background-color: yellowgreen;
+                                                    ">
+        </button>
+
+        <script>
+            test_sample = document.getElementById('testing');
+            let timerCount = 0;
+
+            const intervalId = setInterval(() => test_sample.innerHTML = `No Movement: ${timerCount++}`, 1000);
+            function reset_timer() {timerCount = 0;}
+
+            const events = ['mousemove', 'keydown', 'scroll', 'click'];
+
+            events.forEach(event => {
+                document.addEventListener(event, reset_timer);
+            });
+
+        </script>
     </body>
 </html>
