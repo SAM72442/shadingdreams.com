@@ -1,4 +1,64 @@
 body{
-    margin:0;
-    /* padding-bottom:1000px; */
+    padding-top:150px;
+    margin:0px;
+    margin-bottom: 1000px;
+    background-color: rgb(182, 246, 255);
+}
+
+.homeBackground{
+    display:flex;
+    background-color: pink;
+    position: fixed;
+    opacity:0.2;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    /* background: red; */
+    padding: 20px 4vw;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hamburgerMenu, #siteTitle {
+    padding:8px;
+    /* align-items: center; */
+    align-content: center;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+}
+#hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+}
+#hamburgerMenu  span{
+    height:7px;
+    width:50px;
+    margin: 3px 0;
+    border-radius: 5px;
+    background-color: rgb(130, 130, 130);
+}
+
+#siteTitle{
+    margin-left: 3vw;
+    font-family: "Rancho", cursive;
+    font-size:72px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(130, 130, 130);
+    flex: 1;
+}
+
+#socialMediaBar{
+    width: 75px;
+    height: 75px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background-color: rgb(166, 0, 255);
+    box-shadow: 0 0 30px rgba(166, 0, 255, 0.3);
 }
